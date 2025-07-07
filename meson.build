@@ -6,7 +6,7 @@ project(
 
 # Define dependecies
 dep_gtk3 = dependency('gtk+-3.0')
-dep_wlroots = dependency('wlroots')
+dep_wlroots = dependency('wlroots-0.20')
 dep_wayland_client = dependency('wayland-client')
 
 
